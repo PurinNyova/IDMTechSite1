@@ -116,9 +116,9 @@
     Username : "REMOVED",
     Password : "REMOVED",
     To : 'REMOVED',
-    From : document.getElementById('email').value,
+    From : 'REMOVED',
     Subject : 'Web Email from ' + document.getElementById('name').value,
-    Body : document.getElementById('message').value,
+    Body : document.getElementById('message').value + document.getElementById('email').value
 }).then(
   message => alert(message)
 );
